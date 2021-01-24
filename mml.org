@@ -1,0 +1,27 @@
+#+STARTUP: indent hidestars
+#+MACRO: NEWLINE @@latex:\@@ @@html:<br>@@
+
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:nil tasks:nil tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Mathematics for Machine Learning
+#+DATE: \today
+#+AUTHOR: Kautilya Patel
+#+EMAIL: patel.kautilya@gmail.com
+#+LANGUAGE: en
+#+EXPORT_FILE_NAME: mml-notes.pdf
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.1 (Org mode 9.1.9)
+
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:
+#+DESCRIPTION: Mathematics for Machine Learning
+#+KEYWORDS:
+#+SUBTITLE: Notes
+#+LATEX_COMPILER: pdflatex
+
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[margin=0.5 in]{geometry}
+#+LATEX_HEADER: \usepackage{parskip}
